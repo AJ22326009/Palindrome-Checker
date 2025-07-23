@@ -8,7 +8,19 @@
   </head>
   <body>
     <main>
-      
+      <h1 class="question">Is it a Palindrome?</h1>
+      <form class="form" id="form">
+        <label for="text" class="instruction">Enter in text to check for a palindrome:</label>
+        <div class="button-input-container">
+        <input type="text" id="text-input" class="text"/>
+        <button type="submit" class="button" id="check-btn">Check</button>
+        </div>
+        <p class="result" id="result"></p>
+      </form>
+
+      <p class="definition">
+    💡 A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+      </p>
     </main>
 
     <script src="./script.js"></script>
