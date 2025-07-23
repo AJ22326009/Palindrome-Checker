@@ -14,3 +14,27 @@ function reverseSpelling(str){
 
   return strReversed;
 }
+
+form.addEventListener('submit',(event)=>{
+  event.preventDefault();
+
+  const textValue=textElement.value;
+  textElement.value='';
+  if(textValue===''){
+    alert('Please input a value');
+    return;
+  }
+  
+  const formated=formatText(textValue);
+  const reversed=reverseSpelling(formated);
+
+  resultShowElement.style.display='block';
+  if(formated==reversed){
+    resultShowElement.style.color='green';
+    resultShowElement.innerText=`${textValue} is a palindrome.`
+  }else{
+    resultShowElement.style.color='red';
+    resultShowElement.innerText=`${textValue} is not a palindrome.`
+  }
+  
+});
