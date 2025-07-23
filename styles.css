@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-y: hidden;
+}
+
+*{
+  text-align: center;
+}
+
+main{
+  max-width: 40rem;
+  margin: 2rem;
+  /* background-color: brown; */
+}
