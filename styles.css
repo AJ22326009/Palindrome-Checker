@@ -72,3 +72,13 @@ main{
   font-style: italic;
   margin-bottom: 0;
 }
+
+.definition{
+  background-color: rgb(15,200, 100);
+  margin: 2rem auto;
+  width: 80%;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.3rem;
+  font-style: italic;
+}
